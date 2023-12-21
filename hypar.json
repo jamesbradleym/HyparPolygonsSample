@@ -1,0 +1,22 @@
+{
+  "$schema": "https://hypar.io/Schemas/Function.json",
+  "id": "fda43794-9b18-4cdd-ad8c-33a5663c0502",
+  "name": "Polygon Sample",
+  "description": "",
+  "language": "C#",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "Polygons": {
+        "$hyparOrder": 0,
+        "type": "array",
+        "items": {
+          "$ref": "https://hypar.io/Schemas/Geometry/Polygon.json"
+        }
+      }
+    }
+  },
+  "repository_url": "",
+  "last_updated": "0001-01-01T00:00:00",
+  "cli_version": "1.10.0"
+}
